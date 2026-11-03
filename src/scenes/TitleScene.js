@@ -3,6 +3,9 @@ import { PALETTE } from '../config/palette.js';
 
 const FONT = 'monospace';
 
+// The canvas is scaled up on big screens; drawing text at 2x keeps it sharp.
+const TEXT_RESOLUTION = 2;
+
 // First screen of the game: shows the title while the real levels are built.
 export class TitleScene extends Phaser.Scene {
   constructor() {
@@ -17,6 +20,7 @@ export class TitleScene extends Phaser.Scene {
     this.add
       .text(centerX, centerY - 20, 'PROTOCOLO FÓSIL', {
         fontFamily: FONT,
+        resolution: TEXT_RESOLUTION,
         fontSize: '48px',
         color: PALETTE.textPrimary,
       })
@@ -25,6 +29,7 @@ export class TitleScene extends Phaser.Scene {
     this.add
       .text(centerX, centerY + 30, 'Mar de la Tranquilidad, Luna', {
         fontFamily: FONT,
+        resolution: TEXT_RESOLUTION,
         fontSize: '18px',
         color: PALETTE.textMuted,
       })
@@ -33,6 +38,7 @@ export class TitleScene extends Phaser.Scene {
     this.add
       .text(centerX, height - 30, 'Prototipo v0.1', {
         fontFamily: FONT,
+        resolution: TEXT_RESOLUTION,
         fontSize: '14px',
         color: PALETTE.textDim,
       })
