@@ -69,7 +69,7 @@ protocolo-fosil/
 - `develop`: where finished tasks are merged and tested together.
 - `feature/<issue>-<name>`, `fix/<issue>-<name>`, `docs/<name>`: one branch per task, opened from `develop`.
 
-Every task has an issue on the [project board](https://github.com/users/jhoanmarin227/projects/1), its own branch and a pull request into `develop`. Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/) (`feat:`, `fix:`, `docs:`, `chore:`, `style:`).
+Every task has an [issue](https://github.com/jhoanmarin227/protocolo-fosil/issues), its own branch and a pull request into `develop`. Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/) (`feat:`, `fix:`, `docs:`, `chore:`, `style:`).
 
 ## Roadmap
 
