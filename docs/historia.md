@@ -16,14 +16,14 @@ La base no era minera. El ejército estaba creando dinosaurios para usarlos como
 
 La base parece pequeña desde afuera, pero casi todo está bajo tierra:
 
-| Nivel | Zona | Qué hay |
-|---|---|---|
-| Superficie | Hangar | Donde aterriza tu nave. |
-| Superficie | Biodomo | Cúpula gigante con selva y materia orgánica experimental. Hábitat de los dinosaurios. |
-| -1 | Operaciones | Dormitorios, comedor, control de energía, oficinas. |
-| -2 | Laboratorios | Genética, incubadoras, tanques con embriones. |
-| -3 | Excavaciones | Minas de hielo, túneles sin terminar, maquinaria pesada. |
-| -4 | Sector Militar | Entrenamiento de los dinosaurios y cápsulas para enviarlos a la Tierra. |
+| Nivel      | Zona           | Qué hay                                                                               |
+| ---------- | -------------- | ------------------------------------------------------------------------------------- |
+| Superficie | Hangar         | Donde aterriza tu nave.                                                               |
+| Superficie | Biodomo        | Cúpula gigante con selva y materia orgánica experimental. Hábitat de los dinosaurios. |
+| -1         | Operaciones    | Dormitorios, comedor, control de energía, oficinas.                                   |
+| -2         | Laboratorios   | Genética, incubadoras, tanques con embriones.                                         |
+| -3         | Excavaciones   | Minas de hielo, túneles sin terminar, maquinaria pesada.                              |
+| -4         | Sector Militar | Entrenamiento de los dinosaurios y cápsulas para enviarlos a la Tierra.               |
 
 ## El secreto: Protocolo Fósil
 
@@ -65,13 +65,13 @@ Ya en el espacio, rumbo a la Tierra, se escucha un ruido en la bodega de carga. 
 
 ## Dinosaurios (ideas)
 
-| Dónde | Cómo es | Cómo asusta |
-|---|---|---|
-| Nivel -1 | Raptor | El primero que ves. Ataca al grupo y te persigue hasta el elevador. |
-| Sector Militar (-4) | Raptores de entrenamiento con collares militares | Cazan en pareja y se comunican entre ellos. |
-| Excavaciones (-3) | Manada de dinosaurios pequeños | Andan por túneles y ductos. Solos no son peligrosos; en grupo, sí. |
-| Laboratorios (-2) | Ejemplar ciego, salido de una incubadora | Caza solo por sonido. Hay que moverse en silencio. |
-| Biodomo | Cuello largo modificado, carnívoro y deforme | Te busca desde arriba. No se puede enfrentar, solo esconderse. |
+| Dónde               | Cómo es                                          | Cómo asusta                                                         |
+| ------------------- | ------------------------------------------------ | ------------------------------------------------------------------- |
+| Nivel -1            | Raptor                                           | El primero que ves. Ataca al grupo y te persigue hasta el elevador. |
+| Sector Militar (-4) | Raptores de entrenamiento con collares militares | Cazan en pareja y se comunican entre ellos.                         |
+| Excavaciones (-3)   | Manada de dinosaurios pequeños                   | Andan por túneles y ductos. Solos no son peligrosos; en grupo, sí.  |
+| Laboratorios (-2)   | Ejemplar ciego, salido de una incubadora         | Caza solo por sonido. Hay que moverse en silencio.                  |
+| Biodomo             | Cuello largo modificado, carnívoro y deforme     | Te busca desde arriba. No se puede enfrentar, solo esconderse.      |
 
 ## Sin armas
 
