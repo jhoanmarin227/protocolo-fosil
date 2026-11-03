@@ -1,0 +1,32 @@
+{
+  "name": "protocolo-fosil",
+  "version": "0.1.0",
+  "private": true,
+  "description": "2D top-down sci-fi horror game: escape a lunar base overrun by military-engineered dinosaurs.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "dependencies": {
+    "phaser": "^4.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.14.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.14.0",
+    "prettier": "^3.9.10",
+    "vite": "^8.3.5"
+  },
+  "overrides": {
+    "minimatch": "^11.0.4"
+  }
+}
