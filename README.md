@@ -73,4 +73,6 @@ Every task has an [issue](https://github.com/jhoanmarin227/protocolo-fosil/issue
 
 ## Roadmap
 
+The full game is planned to last 2 to 3 hours and is built in playable versions, from v0.1 to v1.0. The [roadmap](docs/roadmap.md) (in Spanish) explains the target length and what each version adds.
+
 - **v0.1, first playable prototype:** one dark room, a flashlight, a raptor that hears you, and an exit. See the [v0.1 milestone](https://github.com/jhoanmarin227/protocolo-fosil/milestone/1).
