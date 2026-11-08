@@ -1,4 +1,5 @@
 import Phaser from 'phaser';
+import { CONTROLS } from '../config/controls.js';
 import { PALETTE } from '../config/palette.js';
 
 const FONT = 'monospace';
@@ -34,6 +35,20 @@ export class TitleScene extends Phaser.Scene {
         color: PALETTE.textMuted,
       })
       .setOrigin(0.5);
+
+    this.add
+      .text(centerX, centerY + 110, 'Presiona ENTER para empezar', {
+        fontFamily: FONT,
+        resolution: TEXT_RESOLUTION,
+        fontSize: '16px',
+        color: PALETTE.textMuted,
+      })
+      .setOrigin(0.5);
+
+    // Start the test room when the player presses the start key.
+    this.input.keyboard.addKey(CONTROLS.start).once('down', () => {
+      this.scene.start('TestRoomScene');
+    });
 
     this.add
       .text(centerX, height - 30, 'Prototipo v0.1', {
