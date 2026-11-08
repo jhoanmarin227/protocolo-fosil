@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import { PALETTE } from './palette.js';
+import { TestRoomScene } from '../scenes/TestRoomScene.js';
 import { TitleScene } from '../scenes/TitleScene.js';
 
 // Main Phaser settings: canvas size, scaling and the list of scenes.
@@ -16,5 +17,14 @@ export const gameConfig = {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
   },
-  scene: [TitleScene],
+  // Arcade is Phaser's simple physics engine: boxes and circles that move and collide.
+  physics: {
+    default: 'arcade',
+    arcade: {
+      // Top-down view: nothing falls.
+      gravity: { x: 0, y: 0 },
+    },
+  },
+  // The first scene in the list is the one that starts.
+  scene: [TitleScene, TestRoomScene],
 };
